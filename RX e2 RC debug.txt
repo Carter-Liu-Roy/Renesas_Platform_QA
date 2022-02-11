@@ -1,0 +1,5 @@
+1. 仿真器连接不上，无法下载程序：
+	检查connect里面的时钟配置
+	检查hot plug是不是打开状态，如果是，需要关闭
+2. 新工程clock初始化不成功，一直在waiting for stable状态
+	如使用的是外部晶振，检查clock设置里面的时钟源是不是设置的Resonator,如不是，需要改成Resonator
